@@ -1,26 +1,22 @@
-# Triagedesk
+# Triagedesk - E-Commerce Order Triage Dashboard
 
-Implement exactly the screenshot and nothing else
+A premium B2B dashboard that simulates the n8n Workflow 2 (Shopify Order Confirmation Pipeline). This app demonstrates how to handle webhook payloads, visualize HMAC verification, and preview automated HTML emails.
 
-This project was built with [Lovable](https://lovable.dev).
+**Live Demo:** [triagedesk.lovable.app](https://triagedesk.lovable.app)
 
-**Live app**: https://triagedesk.lovable.app
+## Features
+- **Order Triage Table:** Displays incoming webhook payloads with a clear view of HMAC validity and email dispatch status.
+- **Order Drawer:** A slide-out panel that details the order items and the webhook audit metadata (Webhook ID, Shopify Note Status, Resend ID).
+- **Mock Email Preview:** Simulates the exact HTML email built by the n8n Resend node, complete with a white background to mimic an actual inbox.
+- **Top Navigation:** A clean, distraction-free layout that differs from standard sidebar dashboards.
+- **Core UI Pattern:** Strict flat charcoal (#1A1918), solid accents, and no gradients.
 
-## Build with Lovable
+## Tech Stack
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/8d47a86d-b5b0-4c68-8cf4-fac40bdc47ec).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+## Run Locally
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Xhenzouu/triagedesk.git
