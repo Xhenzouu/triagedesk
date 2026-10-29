@@ -1,3 +1,15 @@
+<div align="center">
+
+<img src="./assets/banner.svg" alt="Triagedesk: Webhook, Verify HMAC, Send email, Audit log" width="100%"/>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide_React-F56565?style=for-the-badge&logo=lucide&logoColor=white)
+
+</div>
+
 # Triagedesk - E-Commerce Order Triage Dashboard
 
 A premium B2B dashboard that acts as the UI layer for an n8n automation pipeline. This app visualizes the logic of **Workflow 2 (Shopify Order Confirmation Pipeline)** by simulating incoming webhook payloads, HMAC verification, and automated email dispatch.
@@ -30,12 +42,6 @@ This dashboard visualizes that exact flow: the table shows the webhook intake an
 - **Mock Email Preview:** Simulates the exact HTML email built by the n8n Resend node, complete with a white background to mimic an actual inbox.
 - **Top Navigation:** A clean, distraction-free layout that differs from standard sidebar dashboards.
 - **Core UI Pattern:** Strict flat charcoal (#1A1918), solid accents, and no gradients.
-
-## Tech Stack
-
-- **Frontend:** React, TypeScript, Tailwind CSS
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
 
 ## Run Locally
 
